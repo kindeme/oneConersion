@@ -7,5 +7,13 @@ import { Component} from '@angular/core';
 })
 export class AppComponent {
   title = 'oneConversion';
+  showMsg = false;
+  switchValue = "three";
+  users =[
+    {id: 1, name:'john'},
+    {id: 2, name:'Flore'}
+  ];
+    
+  
 
 }

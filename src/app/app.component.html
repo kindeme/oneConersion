@@ -1,3 +1,16 @@
 <h1 class="bg-primary"> Welcome to OneConversion</h1>
 <app-tasks></app-tasks>
+<div *ngIf="showMsg; then showThenMsgelse; else showElseMsg"> show message</div>
+<ng-template #showThenMsgelse> Show then message </ng-template>
+<ng-template #showElseMsg> Show else message </ng-template>
+
+<h4> ngSwitch Example</h4>
+
+<div [ngSwitch]="switchValue">
+  <div *ngSwitchCase="1"> Value passed is : 1</div>
+  <div *ngSwitchCase="2"> Value passed is : 2</div>
+  <div *ngSwitchCase="3"> Value passed is : 3</div>
+  <div *ngSwitchCase="4"> Value passed is : 4</div>
+    <div *ngSwitchDefault> This is default value</div>
+</div>
 <router-outlet></router-outlet>
