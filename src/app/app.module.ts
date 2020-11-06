@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { TodoModule} from './todo/todo.module';
 import { HoverEffectPipe } from './hover-effect.pipe';
+import { TasksComponent } from './tasks/tasks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HoverEffectPipe
+    HoverEffectPipe,
+    TasksComponent
   ],
   imports: [
     BrowserModule,
