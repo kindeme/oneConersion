@@ -1,5 +1,5 @@
 <h1 class="bg-primary"> Welcome to OneConversion</h1>
-<app-tasks></app-tasks>
+<!-- <app-tasks></app-tasks>
 <div *ngIf="showMsg; then showThenMsgelse; else showElseMsg"> show message</div>
 <ng-template #showThenMsgelse> Show then message </ng-template>
 <ng-template #showElseMsg> Show else message </ng-template>
@@ -13,24 +13,18 @@
   <div *ngSwitchCase="4"> Value passed is : 4</div>
   <div *ngSwitchDefault> This is default value</div>
 </div>
-<h4>ngFor</h4>
-<table class="table">
+<h4>ngFor</h4> -->
+<!-- <table class="table">
   <tr>
     <th>User Id</th>
     <th>Name</th>
-    <th>Index</th>
-    <th>First</th>
-    <th>Last</th>
-    <th>Odd</th>
+
   </tr>
-  <tr *ngFor="let user of users index as i; first as f; last as l; even as e; odd as o">
+  <tr *ngFor="let user of users">
     <td>{{user.userId}}</td>
     <td>{{user.name}}</td>
-    <td>{{i}}</td>
-    <td>{{f}}</td>
-    <td>{{l}}</td>
-    <td>{{e}}</td>
-    <td>{{o}}</td>
   </tr>
-</table>
+</table> -->
+
+<div [ngStyle] ="{'color':colorVal,'background-color': bgColor}"> Learn angular is fun !!!!</div>
 <router-outlet></router-outlet>

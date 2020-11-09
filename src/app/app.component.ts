@@ -7,14 +7,17 @@ import { Component} from '@angular/core';
 })
 export class AppComponent {
   title = 'oneConversion';
-  showMsg = false;
-  switchValue = 'three';
-  users = [
-    { userId: 10, name: 'John' },
-    { userId: 20, name: 'Flore' },
-    { userId: 30, name: 'Marie' },
-    { userId: 40, name: 'Tiffany' },
-    { userId: 50, name: 'Hillary' },
-    { userId: 23, name: 'Ryan' },
-  ];
+  colorVal = 'blue';
+bgColor = '#fffccc';
+  // showMsg = false;
+  // switchValue = 'three';
+  // users = [
+  //   { userId: 10, name: 'John' },
+  //   { userId: 20, name: 'Flore' },
+  //   { userId: 30, name: 'Marie' },
+  //   { userId: 40, name: 'Tiffany' },
+  //   { userId: 50, name: 'Hillary' },
+  //   { userId: 23, name: 'Ryan' },
+  // ];
+
 }
