@@ -9,6 +9,8 @@ export class AppComponent {
   title = 'oneConversion';
   colorVal = 'blue';
 bgColor = '#fffccc';
+clsName = 'one';
+clsName2 = 'two';
   // showMsg = false;
   // switchValue = 'three';
   // users = [
