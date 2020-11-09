@@ -7,10 +7,14 @@ import { Component} from '@angular/core';
 })
 export class AppComponent {
   title = 'oneConversion';
-  colorVal = 'blue';
-bgColor = '#fffccc';
-clsName = 'one';
-clsName2 = 'two';
+  subTitle ="It\'s time to learn data interpolation";
+  epNum = 12;
+
+  colorVal = 'red';
+  clsName = 'c1';
+// bgColor = '#fffccc';
+
+// clsName2 = 'two';
   // showMsg = false;
   // switchValue = 'three';
   // users = [

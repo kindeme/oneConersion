@@ -26,6 +26,11 @@
   </tr>
 </table> -->
 
-<div [ngStyle] ="{'color':colorVal,'background-color': bgColor}"> Learn angular is fun !!!!</div>
-<div [ngClass] ="{'one':false, 'two':true}"> Learning ngClass with expression</div>
+<!-- <div [ngStyle] ="{'color':colorVal,'background-color': bgColor}"> Learn angular is fun !!!!</div>
+<div [ngClass] ="{'one':false, 'two':true}"> Learning ngClass with expression</div> -->
+<div>{{subTitle}}</div>
+<p>{{epNum}}</p>
+<div [ngStyle]="{color:colorVal}"> This is example of property</div>
+<p [innerHTML]='subTitle'></p>
+<div [ngClass]="'c1'"> Setting class property</div>
 <router-outlet></router-outlet>
